@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
 ];
 
   return (
-    <Box display="flex" alignItems="center" bgcolor="white">
+    <Box display="flex" alignItems="center" bgcolor="white" pt={0.5}>
       <IconButton color="primary" size="large">
         <BsLinkedin />
       </IconButton>

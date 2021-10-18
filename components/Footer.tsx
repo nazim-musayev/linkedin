@@ -24,9 +24,8 @@ const Footer: React.FC = () => {
     <footer>
       <StyledPaper variant="outlined">
         <Image 
-         src="https://static-exp1.licdn.com/scds/common/u/images/promo/ads/li_evergreen_jobs_ad_300x250_v1.jpg"
-         alt="Ad" width={300} height={250} layout="fixed" placeholder="blur"
-         blurDataURL="https://static-exp1.licdn.com/scds/common/u/images/promo/ads/li_evergreen_jobs_ad_300x250_v1.jpg"
+         src="/adpic.jpg" alt="Ad" width={300} height={250} layout="fixed" 
+         placeholder="blur" blurDataURL="adpic.jpg"
         /> 
       </StyledPaper>
       <Stack direction="row" spacing={2} mt={2} mx={5} justifyContent="center" flexWrap="wrap">
@@ -46,7 +45,7 @@ const Footer: React.FC = () => {
         <Icon color="primary" sx={{fontSize: "14px"}}>
           <BsLinkedin />
         </Icon>
-        <Typography fontSize="10.5px" ml={0.5}>
+        <Typography fontSize="11px" ml={0.5}>
           LinkedIn Corporation {'©'} 2021
         </Typography>
       </Box>

@@ -75,7 +75,7 @@ const Follow: React.FC = () => {
       <List>
         {listItems.map(({avatar, primary, secondary}) => (
           <Stack key={primary} p={0.5}>
-            <ListItem alignItems="flex-start" disablePadding>
+            <ListItem alignItems="flex-start" disablePadding sx={{'&:hover': {cursor: "pointer"}}}>
               <ListItemAvatar>
                 <Avatar src={avatar} width={48} height={48} />
               </ListItemAvatar>
